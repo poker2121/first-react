@@ -1,0 +1,68 @@
+:root {
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+  --spotlight-color: rgba(255, 255, 255, 0.15);
+}
+
+.home {
+  background: radial-gradient(
+      circle closest-side at var(--mouse-x) var(--mouse-y), 
+      var(--spotlight-color),
+      transparent
+    ),
+    #000000;
+  height: 100vh;
+  position: relative;
+}
+
+.heroSection {
+  padding: 4rem  0 1rem 0;
+  min-height: 95vh;
+}
+
+.masthead {
+  padding: 2.9rem 0 4rem;
+}
+
+.mastheadAvatar {
+  width: 240px;
+  height: auto;
+}
+
+.mastheadHeading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem; 
+}
+
+.dividerCustom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dividerCustomLine {
+  width: 100%;
+  max-width: 5rem;
+  height: 0.25rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.dividerCustomLine:first-child {
+  margin-right: 0.5rem;
+}
+
+.dividerCustomLine:last-child {
+  margin-left: 0.5rem;
+}
+
+.dividerCustomIcon {
+  color: #fff;
+}
+
+.mastheadSubheading {
+  font-size: 1.2rem;
+  font-weight: 400;
+}

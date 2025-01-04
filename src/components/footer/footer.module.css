@@ -1,0 +1,27 @@
+.mainFooter {
+  background-color: #2C3E50;
+  padding: 5rem 0;
+}
+
+.copyright {
+  background-color: #1A252F;
+  padding: 1.2rem 0;
+}
+
+.btnSocial {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.socialIcons .btnSocial:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+
+

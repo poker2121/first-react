@@ -1,0 +1,73 @@
+.contact {
+  height: 100vh;
+}
+
+.masthead {
+  padding: 4.5rem 4rem;
+
+}
+
+.masthead-avatar {
+  width: 240px;
+  height: auto;
+  margin-bottom: 1.2rem;
+}
+.form-control:focus {
+  outline: none !;
+  border-color: transparent;
+}
+
+.mastheadHeading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2C3E50;
+
+}
+
+.dividerCustom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.dividerCustomLine {
+  width: 100%;
+  max-width: 5rem;
+  height: 0.25rem;
+  background-color: #2C3E50;
+  border-radius: 1rem;
+  
+}
+
+.dividerCustomLine:first-child {
+  margin-right: 0.5rem;
+}
+
+.dividerCustomLine:last-child {
+  margin-left: 0.5rem;
+}
+
+.dividerCustomIcon {
+  color:#2C3E50;
+}
+
+
+.divider-custom-line {
+  width: 100px;
+  height: 3px;
+  margin: 0 auto;
+  margin-bottom: 20px !important;
+}
+
+.divider-custom-icon {
+
+  font-size: 2rem;
+}
+
+.contact button{
+  background-color: #1ABC9C !important;
+  color: white !important;
+  float: left;
+}
